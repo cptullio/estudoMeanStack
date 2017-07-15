@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp",
+    "dev": "gulp",
     "production" : "gulp --production"
   },
   "author": "Carlos Pedro",
