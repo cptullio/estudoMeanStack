@@ -1,0 +1,10 @@
+<content-header name="Dashboard" small="Versão {{ consts.version }}"></content-header>
+
+<section class="content" ng-controller="DashboardCtrl as dashboard">
+  <div class="row">
+    
+    <value-box grid="4 6 8 12" color-class="bg-green" icon-class="fa fa-bank"
+      value="{{ dashboard.qtdeAssociados }}" text="Total de Associados"></value-box>
+    
+  </div>
+</section>
