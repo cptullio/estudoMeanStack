@@ -1,0 +1,16 @@
+<div role="form">
+  <div class="box-body">
+    <field id="associadonome" label="Nome" model="associado.nome"
+         placeholder="Informe o Nome" grid="12" readonly="tabDelete"></field>
+    
+
+  <div class="box-footer">
+    <button class="btn btn-primary" ng-click="createAssociado()"
+         ng-if="tabCreate">Incluir</button>
+    <button class="btn btn-info" ng-click="updateBillingCycle()"
+         ng-if="tabUpdate">Alterar</button>
+    <button class="btn btn-danger" ng-click="deleteBillingCycle()"
+         ng-if="tabDelete">Excluir</button>
+    <button class="btn btn-default" ng-click="cancel()">Cancelar</button>
+  </div>
+</div>

@@ -1,3 +1,4 @@
+(function() {
 angular.module('associadosAPP').controller('DashboardCtrl', [
   '$http',
   'consts',
@@ -21,3 +22,4 @@ function DashboardController($http, consts) {
 
   vm.getSummary()
 }
+})();
