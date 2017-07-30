@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
-    "production" : "gulp --production"
+    "production": "gulp --production"
   },
   "author": "Carlos Pedro",
   "license": "ISC",
